@@ -60,7 +60,7 @@ a{
 }
 
 
-.conatiner{
+.container{
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
@@ -310,10 +310,11 @@ header{
     justify-content: space-between;
     margin-block: 30px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .examples-card{
-    width: 50%;
+    width: 24%;
     position: relative;
     height: 300px;
     background: #183b56;
@@ -393,4 +394,3 @@ footer{
 .fa-brands{
     font-size: xx-large;
 }
-
