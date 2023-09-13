@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +12,6 @@
 </head>
 
 <body>
-
     <!-- top banner -->
     <div class="top-banner small-bold-text">
         <div class="container">
@@ -22,11 +22,11 @@
 
     <!-- nav bar section -->
     <nav>
-        <div class="conatiner main-nav flex">
+        <div class="container main-nav flex">
             <a href="indedx.html" class="company-logo">
                 <img src="img/assets/asset 1.png" alt="company logo">
             </a>
-            <div class="nav-links" id="nav-links">
+            <div class="nav-links active" id="nav-links">
                 <ul class="flex">
                     <li><a href="#" class="hover-link">Products</a></li>
                     <li><a href="#" class="hover-link">Customer</a></li>
@@ -78,7 +78,7 @@
 
     <!-- featurs section -->
     <section class="features-section">
-        <div class="conatiner">
+        <div class="container">
             <div class="features-header">
                 <h2>Your user research Swiss Army knife</h2>
                 <a href="#" class="secondary-button">See all features <i class="fa-solid fa-arrow-right"></i></a>
@@ -127,7 +127,7 @@
 
 
     <section class="big-feature-section">
-        <div class="conatiner">
+        <div class="container">
             <div class="container flex big-feature-container">
                 <div class="feature-image">
                     <img src="img/assets/asset 18.png" alt="image-1">
@@ -211,7 +211,7 @@
 
     <!-- footer -->
     <footer>
-        <div class="conatiner flex footer-container">
+        <div class="container flex footer-container">
             <a href="#" class="company-logo flex">
                 <img src="img/assets/asset 1.png" alt="company logo">
             </a>
@@ -269,7 +269,7 @@
 
     <script>
         const toggleButton = document.getElementById('nav-toggle');
-        const navLinks = document.getElementById('nav-links')
+        const navLinks = document.getElementById('nav-links');
 
         toggleButton.addEventListener('click', () =>{
             navLinks.classList.toggle('active');
